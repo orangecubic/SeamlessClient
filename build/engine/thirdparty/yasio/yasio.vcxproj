@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{39478F96-D01B-3556-8900-76A81608B493}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>yasio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\yasio.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yasio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yasio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yasio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yasio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">yasio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">yasio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">yasio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">yasio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\thirdparty\yasio\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/yasio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/yasio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/yasio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/yasio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/yasio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/yasio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/yasio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/yasio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\lua\lua.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\luajit\lua.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\lyasio.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\yasio_axlua.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\yasio_sol.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\buffer_alloc.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\byte_buffer.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\compiler\feature_test.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\config.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\endian_portable.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\errc.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\fsutils.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\ibstream.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\ares.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\char_traits.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\concurrent_queue.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\epoll_io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\eventfd_select_interrupter.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\evport_io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\fp16.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\ifaddrs.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\inet_ntop.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\kqueue_io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\mbedtls.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\object_pool.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\openssl.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\pipe_select_interrupter.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\poll_io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\select_interrupter.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\select_io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\socket.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\socket_select_interrupter.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\io_service.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\logging.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\memory.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\object_pool.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\object_pool_alloc.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\obstream.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\platform\yasio_jni.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\platform\yasio_unreal.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\pod_vector.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\ref_ptr.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\shared_mutex.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\singleton.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\split.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\ssl.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\strfmt.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\string.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\string_view.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\sz.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\thread_name.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\type_traits.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\utils.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\wtimer_hres.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\xxsocket.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\yasio.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\yasio_fwd.hpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\io_service.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\xxsocket.cpp" />
+    <Natvis Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\yasio.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\ZERO_CHECK.vcxproj">
+      <Project>{4000994D-F8D1-31BF-8470-05148A22BAF0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

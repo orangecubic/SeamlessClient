@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+Z:/VS/Project/axmol/thirdparty/freetype/CMakeLists.txt
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CPack.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CPackComponent.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindPNG.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindPkgConfig.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindZLIB.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Templates/CPackConfig.cmake.in
+Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in

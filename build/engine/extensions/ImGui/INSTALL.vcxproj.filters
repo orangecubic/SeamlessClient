@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\SeamlessClient\build\CMakeFiles\b10607407a7220ab541492110d85edc2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E77B73C9-8808-381A-8764-43F42121843C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A469C879-7D9C-321A-B80F-F77B733CF969}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SYNC_RESOURCE-SeamlessClient</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="Z:\VS\Project\SeamlessClient\build\SYNC_RESOURCE-SeamlessClient.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Z:/VS/Project/axmol/1k/fsync.ps1 -s Z:/VS/Project/SeamlessClient/Content -d Z:/VS/Project/SeamlessClient/build/bin/SeamlessClient/$(Configuration)/Content -l TRUE
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Z:/VS/Project/axmol/1k/fsync.ps1 -s Z:/VS/Project/SeamlessClient/Content -d Z:/VS/Project/SeamlessClient/build/bin/SeamlessClient/$(Configuration)/Content -l TRUE
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Z:/VS/Project/axmol/1k/fsync.ps1 -s Z:/VS/Project/SeamlessClient/Content -d Z:/VS/Project/SeamlessClient/build/bin/SeamlessClient/$(Configuration)/Content -l TRUE
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Z:/VS/Project/axmol/1k/fsync.ps1 -s Z:/VS/Project/SeamlessClient/Content -d Z:/VS/Project/SeamlessClient/build/bin/SeamlessClient/$(Configuration)/Content -l TRUE
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\SeamlessClient\build\CMakeFiles\0a2b79587e6a459b2d10fe94567f0f36\SYNC_RESOURCE-SeamlessClient.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -E echo "Syncing resources for SeamlessClient ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\SYNC_RESOURCE-SeamlessClient</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -E echo "Syncing resources for SeamlessClient ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\SYNC_RESOURCE-SeamlessClient</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -E echo "Syncing resources for SeamlessClient ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\SYNC_RESOURCE-SeamlessClient</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -E echo "Syncing resources for SeamlessClient ..."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\SYNC_RESOURCE-SeamlessClient</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\SeamlessClient\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/VS/Project/SeamlessClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASM_NASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeSystem.cmake;Z:\VS\Project\SeamlessClient\run.bat.in;Z:\VS\Project\axmol\1k\platform.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildHelpers.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildSet.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDefine.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDepend.cmake;Z:\VS\Project\axmol\cmake\Modules\AXGLSLCC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMCompiler.cmake.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASM_NASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASM_NASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-ASM.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/VS/Project/SeamlessClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASM_NASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeSystem.cmake;Z:\VS\Project\SeamlessClient\run.bat.in;Z:\VS\Project\axmol\1k\platform.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildHelpers.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildSet.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDefine.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDepend.cmake;Z:\VS\Project\axmol\cmake\Modules\AXGLSLCC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMCompiler.cmake.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASM_NASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASM_NASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-ASM.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/VS/Project/SeamlessClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASM_NASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeSystem.cmake;Z:\VS\Project\SeamlessClient\run.bat.in;Z:\VS\Project\axmol\1k\platform.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildHelpers.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildSet.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDefine.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDepend.cmake;Z:\VS\Project\axmol\cmake\Modules\AXGLSLCC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMCompiler.cmake.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASM_NASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASM_NASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-ASM.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/VS/Project/SeamlessClient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeASM_NASMCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;Z:\VS\Project\SeamlessClient\build\CMakeFiles\3.28.1\CMakeSystem.cmake;Z:\VS\Project\SeamlessClient\run.bat.in;Z:\VS\Project\axmol\1k\platform.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildHelpers.cmake;Z:\VS\Project\axmol\cmake\Modules\AXBuildSet.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDefine.cmake;Z:\VS\Project\axmol\cmake\Modules\AXConfigDepend.cmake;Z:\VS\Project\axmol\cmake\Modules\AXGLSLCC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMCompiler.cmake.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeASM_NASMInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineASM_NASMCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-ASM.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Z:\VS\Project\SeamlessClient\build\CMakeFiles\SYNC_RESOURCE-SeamlessClient">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\ZERO_CHECK.vcxproj">
+      <Project>{4000994D-F8D1-31BF-8470-05148A22BAF0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

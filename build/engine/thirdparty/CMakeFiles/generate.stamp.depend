@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+Z:/VS/Project/axmol/1k/fetch.cmake
+Z:/VS/Project/axmol/thirdparty/CMakeLists.txt
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCSourceRuns.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake
+Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in

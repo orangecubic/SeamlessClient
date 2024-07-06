@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F8CEF42-38AE-3CE0-BA42-A9C0565709BE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>cocostudio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="Z:\VS\Project\SeamlessClient\build\engine\extensions\cocostudio\cocostudio.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cocostudio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cocostudio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cocostudio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cocostudio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "Z:/VS/Project/axmol/thirdparty/zlib/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/jpeg-turbo/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/openssl/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/curl/_d/include" /Bv /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\extensions\cocostudio\src\;Z:\VS\Project\axmol\extensions\spine\runtime\include\;Z:\VS\Project\axmol\extensions\spine\src\;Z:\VS\Project\axmol\extensions\Particle3D\src\;Z:\VS\Project\axmol\extensions\DragonBones\src\;Z:\VS\Project\axmol\;Z:\VS\Project\axmol\thirdparty\;Z:\VS\Project\axmol\extensions\scripting\;Z:\VS\Project\axmol\core\;Z:\VS\Project\axmol\core\platform\;Z:\VS\Project\axmol\core\base\;Z:\VS\Project\axmol\core\audio\;Z:\VS\Project\axmol\core\platform\win32\;Z:\VS\Project\axmol\thirdparty\robin-map\include\;Z:\VS\Project\axmol\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW\;Z:\VS\Project\axmol\thirdparty\fmt\include\;Z:\VS\Project\axmol\thirdparty\websocket-parser\;Z:\VS\Project\axmol\thirdparty\png\;Z:\VS\Project\axmol\thirdparty\box2d\include\;Z:\VS\Project\axmol\thirdparty\chipmunk\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\recast\..\;Z:\VS\Project\axmol\thirdparty\bullet\.\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;Z:\VS\Project\axmol\thirdparty\pugixml\;Z:\VS\Project\axmol\thirdparty\xxhash\.\;Z:\VS\Project\axmol\thirdparty\fastlz\;Z:\VS\Project\axmol\thirdparty\clipper2\include\;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.\;Z:\VS\Project\axmol\thirdparty\poly2tri\..\;Z:\VS\Project\axmol\thirdparty\astcenc\..\;Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\axmol\thirdparty\openal\include\AL\;Z:\VS\Project\axmol\thirdparty\ogg\include\;Z:\VS\Project\axmol\thirdparty\glad\include\;Z:\VS\Project\axmol\thirdparty\glfw\include\;Z:\VS\Project\axmol\thirdparty\unzip\;Z:\VS\Project\axmol\thirdparty\llhttp\include\;Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\zlib\_d\include\;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;Z:\VS\Project\axmol\thirdparty\curl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "Z:/VS/Project/axmol/thirdparty/zlib/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/jpeg-turbo/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/openssl/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/curl/_d/include" /Bv /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\extensions\cocostudio\src\;Z:\VS\Project\axmol\extensions\spine\runtime\include\;Z:\VS\Project\axmol\extensions\spine\src\;Z:\VS\Project\axmol\extensions\Particle3D\src\;Z:\VS\Project\axmol\extensions\DragonBones\src\;Z:\VS\Project\axmol\;Z:\VS\Project\axmol\thirdparty\;Z:\VS\Project\axmol\extensions\scripting\;Z:\VS\Project\axmol\core\;Z:\VS\Project\axmol\core\platform\;Z:\VS\Project\axmol\core\base\;Z:\VS\Project\axmol\core\audio\;Z:\VS\Project\axmol\core\platform\win32\;Z:\VS\Project\axmol\thirdparty\robin-map\include\;Z:\VS\Project\axmol\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW\;Z:\VS\Project\axmol\thirdparty\fmt\include\;Z:\VS\Project\axmol\thirdparty\websocket-parser\;Z:\VS\Project\axmol\thirdparty\png\;Z:\VS\Project\axmol\thirdparty\box2d\include\;Z:\VS\Project\axmol\thirdparty\chipmunk\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\recast\..\;Z:\VS\Project\axmol\thirdparty\bullet\.\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;Z:\VS\Project\axmol\thirdparty\pugixml\;Z:\VS\Project\axmol\thirdparty\xxhash\.\;Z:\VS\Project\axmol\thirdparty\fastlz\;Z:\VS\Project\axmol\thirdparty\clipper2\include\;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.\;Z:\VS\Project\axmol\thirdparty\poly2tri\..\;Z:\VS\Project\axmol\thirdparty\astcenc\..\;Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\axmol\thirdparty\openal\include\AL\;Z:\VS\Project\axmol\thirdparty\ogg\include\;Z:\VS\Project\axmol\thirdparty\glad\include\;Z:\VS\Project\axmol\thirdparty\glfw\include\;Z:\VS\Project\axmol\thirdparty\unzip\;Z:\VS\Project\axmol\thirdparty\llhttp\include\;Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\zlib\_d\include\;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;Z:\VS\Project\axmol\thirdparty\curl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "Z:/VS/Project/axmol/thirdparty/zlib/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/jpeg-turbo/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/openssl/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/curl/_d/include" /Bv /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\extensions\cocostudio\src\;Z:\VS\Project\axmol\extensions\spine\runtime\include\;Z:\VS\Project\axmol\extensions\spine\src\;Z:\VS\Project\axmol\extensions\Particle3D\src\;Z:\VS\Project\axmol\extensions\DragonBones\src\;Z:\VS\Project\axmol\;Z:\VS\Project\axmol\thirdparty\;Z:\VS\Project\axmol\extensions\scripting\;Z:\VS\Project\axmol\core\;Z:\VS\Project\axmol\core\platform\;Z:\VS\Project\axmol\core\base\;Z:\VS\Project\axmol\core\audio\;Z:\VS\Project\axmol\core\platform\win32\;Z:\VS\Project\axmol\thirdparty\robin-map\include\;Z:\VS\Project\axmol\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW\;Z:\VS\Project\axmol\thirdparty\fmt\include\;Z:\VS\Project\axmol\thirdparty\websocket-parser\;Z:\VS\Project\axmol\thirdparty\png\;Z:\VS\Project\axmol\thirdparty\box2d\include\;Z:\VS\Project\axmol\thirdparty\chipmunk\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\recast\..\;Z:\VS\Project\axmol\thirdparty\bullet\.\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;Z:\VS\Project\axmol\thirdparty\pugixml\;Z:\VS\Project\axmol\thirdparty\xxhash\.\;Z:\VS\Project\axmol\thirdparty\fastlz\;Z:\VS\Project\axmol\thirdparty\clipper2\include\;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.\;Z:\VS\Project\axmol\thirdparty\poly2tri\..\;Z:\VS\Project\axmol\thirdparty\astcenc\..\;Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\axmol\thirdparty\openal\include\AL\;Z:\VS\Project\axmol\thirdparty\ogg\include\;Z:\VS\Project\axmol\thirdparty\glad\include\;Z:\VS\Project\axmol\thirdparty\glfw\include\;Z:\VS\Project\axmol\thirdparty\unzip\;Z:\VS\Project\axmol\thirdparty\llhttp\include\;Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\zlib\_d\include\;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;Z:\VS\Project\axmol\thirdparty\curl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "Z:/VS/Project/axmol/thirdparty/zlib/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/jpeg-turbo/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/openssl/_d/include" /external:I "Z:/VS/Project/axmol/thirdparty/curl/_d/include" /Bv /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\extensions\cocostudio\src\;Z:\VS\Project\axmol\extensions\spine\runtime\include\;Z:\VS\Project\axmol\extensions\spine\src\;Z:\VS\Project\axmol\extensions\Particle3D\src\;Z:\VS\Project\axmol\extensions\DragonBones\src\;Z:\VS\Project\axmol\;Z:\VS\Project\axmol\thirdparty\;Z:\VS\Project\axmol\extensions\scripting\;Z:\VS\Project\axmol\core\;Z:\VS\Project\axmol\core\platform\;Z:\VS\Project\axmol\core\base\;Z:\VS\Project\axmol\core\audio\;Z:\VS\Project\axmol\core\platform\win32\;Z:\VS\Project\axmol\thirdparty\robin-map\include\;Z:\VS\Project\axmol\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW\;Z:\VS\Project\axmol\thirdparty\fmt\include\;Z:\VS\Project\axmol\thirdparty\websocket-parser\;Z:\VS\Project\axmol\thirdparty\png\;Z:\VS\Project\axmol\thirdparty\box2d\include\;Z:\VS\Project\axmol\thirdparty\chipmunk\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include\;Z:\VS\Project\axmol\thirdparty\recast\..\;Z:\VS\Project\axmol\thirdparty\bullet\.\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;Z:\VS\Project\axmol\thirdparty\pugixml\;Z:\VS\Project\axmol\thirdparty\xxhash\.\;Z:\VS\Project\axmol\thirdparty\fastlz\;Z:\VS\Project\axmol\thirdparty\clipper2\include\;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.\;Z:\VS\Project\axmol\thirdparty\poly2tri\..\;Z:\VS\Project\axmol\thirdparty\astcenc\..\;Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\axmol\thirdparty\openal\include\AL\;Z:\VS\Project\axmol\thirdparty\ogg\include\;Z:\VS\Project\axmol\thirdparty\glad\include\;Z:\VS\Project\axmol\thirdparty\glfw\include\;Z:\VS\Project\axmol\thirdparty\unzip\;Z:\VS\Project\axmol\thirdparty\llhttp\include\;Z:\VS\Project\axmol\thirdparty\yasio\;Z:\VS\Project\axmol\thirdparty\zlib\_d\include\;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include\;Z:\VS\Project\axmol\thirdparty\openssl\_d\include\;Z:\VS\Project\axmol\thirdparty\curl\_d\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_USE_SSE=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\extensions\cocostudio\src;Z:\VS\Project\axmol\extensions\spine\runtime\include;Z:\VS\Project\axmol\extensions\spine\src;Z:\VS\Project\axmol\extensions\Particle3D\src;Z:\VS\Project\axmol\extensions\DragonBones\src;Z:\VS\Project\axmol;Z:\VS\Project\axmol\thirdparty;Z:\VS\Project\axmol\extensions\scripting;Z:\VS\Project\axmol\core;Z:\VS\Project\axmol\core\platform;Z:\VS\Project\axmol\core\base;Z:\VS\Project\axmol\core\audio;Z:\VS\Project\axmol\core\platform\win32;Z:\VS\Project\axmol\thirdparty\robin-map\include;Z:\VS\Project\axmol\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\glfw\include\GLFW;Z:\VS\Project\axmol\thirdparty\fmt\include;Z:\VS\Project\axmol\thirdparty\websocket-parser;Z:\VS\Project\axmol\thirdparty\png;Z:\VS\Project\axmol\thirdparty\box2d\include;Z:\VS\Project\axmol\thirdparty\chipmunk\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\include;Z:\VS\Project\axmol\thirdparty\recast\..;Z:\VS\Project\axmol\thirdparty\bullet\.;Z:\VS\Project\axmol\thirdparty\webp\src\webp;Z:\VS\Project\axmol\thirdparty\pugixml;Z:\VS\Project\axmol\thirdparty\xxhash\.;Z:\VS\Project\axmol\thirdparty\fastlz;Z:\VS\Project\axmol\thirdparty\clipper2\include;Z:\VS\Project\axmol\thirdparty\ConvertUTF\.;Z:\VS\Project\axmol\thirdparty\poly2tri\..;Z:\VS\Project\axmol\thirdparty\astcenc\..;Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\axmol\thirdparty\openal\include\AL;Z:\VS\Project\axmol\thirdparty\ogg\include;Z:\VS\Project\axmol\thirdparty\glad\include;Z:\VS\Project\axmol\thirdparty\glfw\include;Z:\VS\Project\axmol\thirdparty\unzip;Z:\VS\Project\axmol\thirdparty\llhttp\include;Z:\VS\Project\axmol\thirdparty\yasio;Z:\VS\Project\axmol\thirdparty\zlib\_d\include;Z:\VS\Project\axmol\thirdparty\jpeg-turbo\_d\include;Z:\VS\Project\axmol\thirdparty\openssl\_d\include;Z:\VS\Project\axmol\thirdparty\curl\_d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\extensions\cocostudio\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/VS/Project/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/extensions/cocostudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/VS/Project/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/extensions/cocostudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/VS/Project/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/extensions/cocostudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/VS/Project/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/extensions/cocostudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionFrame.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionFrame.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionFrameEasing.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionFrameEasing.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionManagerEx.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionManagerEx.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionNode.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionNode.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionObject.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionObject.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimelineMacro.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Armature.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Armature.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ArmatureAnimation.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ArmatureAnimation.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ArmatureDataManager.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ArmatureDataManager.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ArmatureDefine.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ArmatureDefine.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\BatchNode.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\BatchNode.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Bone.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Bone.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CSLanguageDataBinary_generated.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CSParse3DBinary_generated.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CSParseBinary_generated.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocoLoader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocoLoader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocoStudio.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocoStudio.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExport.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExtension.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExtension.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ColliderDetector.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ColliderDetector.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComAttribute.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComAttribute.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComAudio.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComAudio.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComBase.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComController.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComController.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComExtensionData.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComExtensionData.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComRender.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ComRender.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DataReaderHelper.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DataReaderHelper.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Datas.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Datas.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DecorativeDisplay.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DecorativeDisplay.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DictionaryHelper.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DictionaryHelper.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DisplayFactory.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DisplayFactory.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DisplayManager.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\DisplayManager.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\InputDelegate.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\InputDelegate.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\LocalizationManager.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\LocalizationManager.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ProcessBase.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\ProcessBase.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SGUIReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SGUIReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SSceneReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SSceneReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Skin.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Skin.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TransformHelp.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TransformHelp.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TriggerBase.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TriggerBase.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TriggerMng.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TriggerMng.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TriggerObj.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\TriggerObj.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Tween.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\Tween.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\CSArmatureNode_generated.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderDefine.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\CSBoneBinary_generated.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\CSTabControl_generated.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\ZERO_CHECK.vcxproj">
+      <Project>{4000994D-F8D1-31BF-8470-05148A22BAF0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{3F5AF7C8-E259-3D0C-B345-86BF56E7E366}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\OpenAL.vcxproj">
+      <Project>{D86B98F6-FF04-3C23-869D-2A181088DBE4}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\alcommon.vcxproj">
+      <Project>{6E530C6E-AE3A-36D3-B1D2-B2059A769E4C}</Project>
+      <Name>alcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\astcenc\astcenc.vcxproj">
+      <Project>{651C99B8-0848-384A-AF70-4CE3F069315A}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\axmol.vcxproj">
+      <Project>{88BC3866-F84F-3C89-8B98-09EBEECA85D7}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\box2d\box2d.vcxproj">
+      <Project>{1166D176-EDAF-3639-A93C-E169B2029CA0}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\bullet\bullet.vcxproj">
+      <Project>{2F736EF5-57A1-3A37-9791-468E7C7D9DF3}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{D6FE8FB0-43BB-3511-A418-1E9A3A059EFF}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\clipper2\clipper2.vcxproj">
+      <Project>{408DC6CA-905C-3A22-B9C6-782CAD224FE0}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\fastlz\fastlz.vcxproj">
+      <Project>{B4CC9C27-6943-3DE1-928B-9C476A3B36B7}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\fmt\fmt.vcxproj">
+      <Project>{5A241E4A-B68E-3DFA-8EDE-0353B6419331}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\freetype.vcxproj">
+      <Project>{B2BA4EBE-0BD0-3BB7-AF38-EAE6AB14679F}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\glad\glad.vcxproj">
+      <Project>{7F97C7C9-4461-32B8-9F64-445079B8D534}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{94A94928-C51E-3203-A400-B058BCD214C9}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\llhttp\llhttp.vcxproj">
+      <Project>{8FEE5936-F890-333F-B1D0-E5A8E126F33C}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\ogg\ogg.vcxproj">
+      <Project>{09A752F0-6060-316B-BF77-8EDF793A532D}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\png\png.vcxproj">
+      <Project>{65D83970-2F38-3CAD-88D6-B3970E659CAE}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{9E6512AF-7C1E-3FC3-A6CB-37791AEB1A3C}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\pugixml\pugixml.vcxproj">
+      <Project>{EC3F822E-4C03-384C-8A06-3E3AEC9F190B}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\recast\recast.vcxproj">
+      <Project>{789E3A14-5511-3965-B34A-BBD0DA056507}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\simdjson\simdjson.vcxproj">
+      <Project>{5A647BC9-B1AF-33B1-A641-2D1947C96390}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\unzip\unzip.vcxproj">
+      <Project>{4F32AC18-94BF-3360-B7D1-7ABFE736D1B9}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\webp.vcxproj">
+      <Project>{4AC1B9C0-454B-3D55-B901-7D3C60ADD5CE}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{4D7B9400-CC79-383D-B8A7-B6D5F0AAE1E6}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\xxhash\xxhash.vcxproj">
+      <Project>{CD364F5B-B5FF-3996-9194-7BE90283951F}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\yasio.vcxproj">
+      <Project>{39478F96-D01B-3556-8900-76A81608B493}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\..\packages\Microsoft.Web.WebView2\build\native\Microsoft.Web.WebView2.targets" Condition="Exists('..\..\..\packages\Microsoft.Web.WebView2\build\native\Microsoft.Web.WebView2.targets') And ('$(Configuration)'=='Debug' Or '$(Configuration)'=='Release' Or '$(Configuration)'=='MinSizeRel' Or '$(Configuration)'=='RelWithDebInfo')" />
+    <Import Project="Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

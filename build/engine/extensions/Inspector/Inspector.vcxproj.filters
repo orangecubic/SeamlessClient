@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\Inspector\src\Inspector\Inspector.cpp">
+      <Filter>Source Files\src\Inspector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\Inspector\src\Inspector\Inspector.h">
+      <Filter>Source Files\src\Inspector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\extensions\Inspector\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FB4DB3D-6F8D-3745-BBEF-1195DE685220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{41665708-84A4-3B95-8C8B-724352590273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Inspector">
+      <UniqueIdentifier>{260C14D6-E9D1-33F5-AA59-ECD084B8EB42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

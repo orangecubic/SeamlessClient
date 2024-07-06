@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\SDFGen\src\SDFGen\SDFGen.cpp">
+      <Filter>Source Files\src\SDFGen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\SDFGen\src\SDFGen\SDFGen.h">
+      <Filter>Source Files\src\SDFGen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\extensions\SDFGen\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FB4DB3D-6F8D-3745-BBEF-1195DE685220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{41665708-84A4-3B95-8C8B-724352590273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\SDFGen">
+      <UniqueIdentifier>{9EEF0F41-EECC-3941-B3D5-66CE03FD68FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

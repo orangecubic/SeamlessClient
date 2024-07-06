@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+Z:/VS/Project/axmol/thirdparty/fmt/CMakeLists.txt
+Z:/VS/Project/axmol/thirdparty/fmt/support/cmake/JoinPaths.cmake
+Z:/VS/Project/axmol/thirdparty/fmt/support/cmake/fmt-config.cmake.in
+Z:/VS/Project/axmol/thirdparty/fmt/support/cmake/fmt.pc.in
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CMakeParseArguments.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in

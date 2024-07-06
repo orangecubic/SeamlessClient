@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D86B98F6-FF04-3C23-869D-2A181088DBE4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>OpenAL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\OpenAL.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenAL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenAL32</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenAL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenAL32</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenAL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenAL32</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenAL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenAL32</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8 /w14640</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4065;4127;4268;4324;5030;5051</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Debug\";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\common\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /W4 /w14640 /wd4065 /wd4127 /wd4268 /wd4324 /wd5030 /wd5051</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug";OpenAL_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\alcommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/VS/Project/SeamlessClient/build/lib/Debug/OpenAL32.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/VS/Project/SeamlessClient/build/bin/Debug/OpenAL32.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8 /w14640</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4065;4127;4268;4324;5030;5051</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Release\";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\common\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /W4 /w14640 /wd4065 /wd4127 /wd4268 /wd4324 /wd5030 /wd5051</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release";OpenAL_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\alcommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/VS/Project/SeamlessClient/build/lib/Release/OpenAL32.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/VS/Project/SeamlessClient/build/bin/Release/OpenAL32.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8 /w14640</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4065;4127;4268;4324;5030;5051</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"MinSizeRel\";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\common\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /W4 /w14640 /wd4065 /wd4127 /wd4268 /wd4324 /wd5030 /wd5051</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel";OpenAL_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\alcommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/VS/Project/SeamlessClient/build/lib/MinSizeRel/OpenAL32.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/VS/Project/SeamlessClient/build/bin/MinSizeRel/OpenAL32.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8 /w14640</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4065;4127;4268;4324;5030;5051</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"RelWithDebInfo\";OpenAL_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\openal\include\;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\;Z:\VS\Project\axmol\thirdparty\openal\common\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8 /W4 /w14640 /wd4065 /wd4127 /wd4268 /wd4324 /wd5030 /wd5051</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AL_BUILD_LIBRARY;AL_ALEXT_PROTOTYPES;ALC_API=__declspec(dllexport);AL_API=__declspec(dllexport);_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo";OpenAL_EXPORTS</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\openal\include;Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal;Z:\VS\Project\axmol\thirdparty\openal\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\alcommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Z:/VS/Project/SeamlessClient/build/lib/RelWithDebInfo/OpenAL32.lib</ImportLibrary>
+      <ProgramDataBaseFile>Z:/VS/Project/SeamlessClient/build/bin/RelWithDebInfo/OpenAL32.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\SeamlessClient\build\CMakeFiles\e7e0e6504662a745eab17efc8b714d5e\default_hrtf.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating default_hrtf.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd Z:\VS\Project\axmol\thirdparty\openal
+if %errorlevel% neq 0 goto :cmEnd
+Z:
+if %errorlevel% neq 0 goto :cmEnd
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -D "INPUT_FILE=Z:/VS/Project/axmol/thirdparty/openal/hrtf/Default HRTF.mhr" -D OUTPUT_FILE=Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/default_hrtf.txt -P Z:/VS/Project/axmol/thirdparty/openal/cmake/bin2h.script.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\axmol\thirdparty\openal\hrtf\Default HRTF.mhr;Z:\VS\Project\axmol\thirdparty\openal\cmake\bin2h.script.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\default_hrtf.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating default_hrtf.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd Z:\VS\Project\axmol\thirdparty\openal
+if %errorlevel% neq 0 goto :cmEnd
+Z:
+if %errorlevel% neq 0 goto :cmEnd
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -D "INPUT_FILE=Z:/VS/Project/axmol/thirdparty/openal/hrtf/Default HRTF.mhr" -D OUTPUT_FILE=Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/default_hrtf.txt -P Z:/VS/Project/axmol/thirdparty/openal/cmake/bin2h.script.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\axmol\thirdparty\openal\hrtf\Default HRTF.mhr;Z:\VS\Project\axmol\thirdparty\openal\cmake\bin2h.script.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\default_hrtf.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating default_hrtf.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd Z:\VS\Project\axmol\thirdparty\openal
+if %errorlevel% neq 0 goto :cmEnd
+Z:
+if %errorlevel% neq 0 goto :cmEnd
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -D "INPUT_FILE=Z:/VS/Project/axmol/thirdparty/openal/hrtf/Default HRTF.mhr" -D OUTPUT_FILE=Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/default_hrtf.txt -P Z:/VS/Project/axmol/thirdparty/openal/cmake/bin2h.script.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\axmol\thirdparty\openal\hrtf\Default HRTF.mhr;Z:\VS\Project\axmol\thirdparty\openal\cmake\bin2h.script.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\default_hrtf.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating default_hrtf.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd Z:\VS\Project\axmol\thirdparty\openal
+if %errorlevel% neq 0 goto :cmEnd
+Z:
+if %errorlevel% neq 0 goto :cmEnd
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -D "INPUT_FILE=Z:/VS/Project/axmol/thirdparty/openal/hrtf/Default HRTF.mhr" -D OUTPUT_FILE=Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/default_hrtf.txt -P Z:/VS/Project/axmol/thirdparty/openal/cmake/bin2h.script.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\axmol\thirdparty\openal\hrtf\Default HRTF.mhr;Z:\VS\Project\axmol\thirdparty\openal\cmake\bin2h.script.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\default_hrtf.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\thirdparty\openal\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/openal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\axmol\thirdparty\openal\cmake\FindJACK.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindOpenSL.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPortAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPulseAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\config.h.in;Z:\VS\Project\axmol\thirdparty\openal\openal.pc.in;Z:\VS\Project\axmol\thirdparty\openal\version.h.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindGit.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPkgConfig.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/openal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\axmol\thirdparty\openal\cmake\FindJACK.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindOpenSL.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPortAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPulseAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\config.h.in;Z:\VS\Project\axmol\thirdparty\openal\openal.pc.in;Z:\VS\Project\axmol\thirdparty\openal\version.h.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindGit.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPkgConfig.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/openal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\axmol\thirdparty\openal\cmake\FindJACK.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindOpenSL.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPortAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPulseAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\config.h.in;Z:\VS\Project\axmol\thirdparty\openal\openal.pc.in;Z:\VS\Project\axmol\thirdparty\openal\version.h.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindGit.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPkgConfig.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/openal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/openal/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\axmol\thirdparty\openal\cmake\FindJACK.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindOpenSL.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPortAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\cmake\FindPulseAudio.cmake;Z:\VS\Project\axmol\thirdparty\openal\config.h.in;Z:\VS\Project\axmol\thirdparty\openal\openal.pc.in;Z:\VS\Project\axmol\thirdparty\openal\version.h.in;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckStructHasMember.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindGit.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\FindPkgConfig.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\auxeffectslot.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\auxeffectslot.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\buffer.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\buffer.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\debug.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\debug.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\direct_defs.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effect.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\effect.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\autowah.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/autowah.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\chorus.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/chorus.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\compressor.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/compressor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\convolution.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/convolution.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\dedicated.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/dedicated.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\distortion.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/distortion.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\echo.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/echo.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\effects.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\effects.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\equalizer.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/equalizer.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\fshifter.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/fshifter.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\modulator.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/modulator.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\null.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/null.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\pshifter.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/pshifter.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\reverb.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/reverb.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\effects\vmorpher.cpp">
+      <ObjectFileName>$(IntDir)/al/effects/vmorpher.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\error.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\event.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\event.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\extension.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\filter.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\filter.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\listener.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\listener.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\source.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\source.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\state.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\api.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\api.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\call.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\call.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\effect.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\exception.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\exception.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\fx_slot_index.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\fx_slot_index.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\fx_slots.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\fx_slots.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\globals.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\utils.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\utils.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\al\eax\x_ram.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\alc.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\alu.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\alu.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\alconfig.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\alconfig.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\context.cpp">
+      <ObjectFileName>$(IntDir)/alc/context.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\context.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\device.cpp">
+      <ObjectFileName>$(IntDir)/alc/device.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\device.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\base.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\autowah.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/autowah.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\chorus.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/chorus.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\compressor.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/compressor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\convolution.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/convolution.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\dedicated.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/dedicated.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\distortion.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/distortion.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\echo.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/echo.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\equalizer.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/equalizer.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\fshifter.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/fshifter.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\modulator.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/modulator.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\null.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/null.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\pshifter.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/pshifter.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\reverb.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/reverb.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\effects\vmorpher.cpp">
+      <ObjectFileName>$(IntDir)/alc/effects/vmorpher.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\events.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\events.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\export_list.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\inprogext.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\panning.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\base.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\base.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\loopback.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\loopback.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\null.cpp">
+      <ObjectFileName>$(IntDir)/alc/backends/null.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\null.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\wasapi.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\alc\backends\wasapi.h" />
+    <None Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\default_hrtf.txt">
+    </None>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\ambdec.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\ambdec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\ambidefs.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\ambidefs.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\async_event.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\bformatdec.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\bformatdec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\bs2b.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\bs2b.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\bsinc_defs.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\bsinc_tables.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\bsinc_tables.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\bufferline.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\buffer_storage.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\buffer_storage.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\context.cpp">
+      <ObjectFileName>$(IntDir)/core/context.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\context.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\converter.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\converter.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\cpu_caps.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\cpu_caps.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\cubic_defs.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\cubic_tables.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\cubic_tables.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\devformat.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\devformat.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\device.cpp">
+      <ObjectFileName>$(IntDir)/core/device.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\device.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\effects\base.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\effectslot.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\effectslot.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\except.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\except.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\filters\biquad.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\filters\biquad.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\filters\nfc.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\filters\nfc.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\filters\splitter.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\filters\splitter.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\fmt_traits.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\fmt_traits.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\fpu_ctrl.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\fpu_ctrl.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\front_stablizer.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\helpers.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\helpers.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\hrtf.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\hrtf.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\logging.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\logging.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mastering.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\mastering.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\resampler_limits.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\uhjfilter.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\uhjfilter.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\uiddefs.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\voice.cpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\voice.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\voice_change.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\defs.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\hrtfbase.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\hrtfdefs.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\mixer_c.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\mixer_sse.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\mixer_sse2.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\mixer_sse3.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\openal\core\mixer\mixer_sse41.cpp" />
+    <ResourceCompile Include="Z:\VS\Project\axmol\thirdparty\openal\resources\openal32.rc" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\include\AL\al.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\include\AL\alc.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\include\AL\alext.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\include\AL\efx.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\openal\include\AL\efx-presets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\ZERO_CHECK.vcxproj">
+      <Project>{4000994D-F8D1-31BF-8470-05148A22BAF0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\openal\alcommon.vcxproj">
+      <Project>{6E530C6E-AE3A-36D3-B1D2-B2059A769E4C}</Project>
+      <Name>alcommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

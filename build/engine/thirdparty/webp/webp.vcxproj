@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4AC1B9C0-454B-3D55-B901-7D3C60ADD5CE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>webp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\webp.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">webp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">webp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">webp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">webp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">webp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">webp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">webp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">webp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\webp\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\webp\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\webp\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Bv /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>Z:\VS\Project\axmol\thirdparty\webp\;Z:\VS\Project\axmol\thirdparty\webp\src\webp\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /Bv /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H=1;WEBP_HAVE_SSE2=1;WEBP_HAVE_SSE41=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>Z:\VS\Project\axmol\thirdparty\webp;Z:\VS\Project\axmol\thirdparty\webp\src\webp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\thirdparty\webp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/webp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/webp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/webp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/webp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/webp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/webp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/VS/Project/axmol/thirdparty/webp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/thirdparty/webp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_cpu.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_cpu.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_csp.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_csp.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_dsp.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_dsp.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_gamma.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_gamma.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\sharpyuv\sharpyuv_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\alpha_dec.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\alphai_dec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\buffer_dec.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\common_dec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\frame_dec.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\idec_dec.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\io_dec.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\quant_dec.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\tree_dec.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\vp8_dec.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\vp8_dec.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\vp8i_dec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\vp8l_dec.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\vp8li_dec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\webp_dec.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dec\webpi_dec.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\demux\anim_decode.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\demux\demux.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\alpha_processing.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\alpha_processing_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\alpha_processing_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\alpha_processing_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\alpha_processing_sse41.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\common_sse2.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\common_sse41.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cost.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cost_mips32.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cost_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cost_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cost_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cpu.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\cpu.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_clip_tables.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_mips32.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dec_sse41.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\dsp.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc_mips32.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\enc_sse41.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\filters.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\filters_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\filters_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\filters_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\filters_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_common.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc_mips32.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_enc_sse41.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\lossless_sse41.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\mips_macro.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\msa_macro.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\neon.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\quant.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\rescaler.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\rescaler_mips32.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\rescaler_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\rescaler_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\rescaler_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\rescaler_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\ssim.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\ssim_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\upsampling.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\upsampling_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\upsampling_msa.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\upsampling_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\upsampling_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\upsampling_sse41.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv_mips32.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv_mips_dsp_r2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv_neon.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv_sse2.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\dsp\yuv_sse41.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\alpha_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\analysis_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\backward_references_cost_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\backward_references_enc.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\backward_references_enc.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\config_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\cost_enc.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\cost_enc.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\filter_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\frame_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\histogram_enc.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\histogram_enc.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\iterator_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\near_lossless_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\picture_csp_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\picture_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\picture_psnr_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\picture_rescale_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\picture_tools_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\predictor_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\quant_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\syntax_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\token_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\tree_enc.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\vp8i_enc.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\vp8l_enc.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\vp8li_enc.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\enc\webp_enc.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\mux\anim_encode.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\mux\animi.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\mux\muxedit.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\mux\muxi.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\mux\muxinternal.c" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\mux\muxread.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\bit_reader_inl_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\bit_reader_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\bit_reader_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\bit_writer_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\bit_writer_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\color_cache_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\color_cache_utils.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\endian_inl_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\filters_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\filters_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\huffman_encode_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\huffman_encode_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\huffman_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\huffman_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\quant_levels_dec_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\quant_levels_dec_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\quant_levels_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\quant_levels_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\random_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\random_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\rescaler_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\rescaler_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\thread_utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\thread_utils.h" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\utils.c" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\utils\utils.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\config.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\decode.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\demux.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\encode.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\format_constants.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\mux.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\mux_types.h" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\webp\src\webp\types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\ZERO_CHECK.vcxproj">
+      <Project>{4000994D-F8D1-31BF-8470-05148A22BAF0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2089 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\axmol.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\axmol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionCamera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionCatmullRom.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Action.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionEase.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionGrid3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionInstant.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionInterval.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionManager.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionPageTurn3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionTiledGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionTween.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\AnimationCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Animation.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\AtlasNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Camera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\CameraBackgroundBrush.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ClippingNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ClippingRectangleNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ComponentContainer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Component.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\DrawNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FastTMXLayer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FastTMXTiledMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FontAtlasCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FontAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FontCharMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Font.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FontFNT.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\FontFreeType.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Grid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\LabelAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Label.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Layer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Light.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Menu.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\MenuItem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\MotionStreak.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Node.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\NodeGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ParallaxNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ParticleBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ParticleExamples.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ParticleSystem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ParticleSystemQuad.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ProtectedNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\RenderTexture.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Scene.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\SpriteBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Sprite.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\AnchoredSprite.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\SpriteFrameCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\SpriteFrame.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\AutoPolygon.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TextFieldTTF.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TileMapAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TMXObjectGroup.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TMXXMLParser.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\Transition.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TransitionPageTurn.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TransitionProgress.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\TweenFunction.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\SpriteSheetLoader.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\PlistSpriteSheetLoader.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\2d\ActionCoroutine.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\AABB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Animate3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Animation3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\AttachNode.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\BillBoard.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Bundle3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Bundle3DData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\BundleReader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Frustum.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Mesh.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\MeshSkin.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\MeshVertexIndexData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\MotionStreak3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\OBB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\ObjLoader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Plane.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Ray.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Skeleton3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Skybox.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\MeshRenderer.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\MeshMaterial.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\Terrain.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\VertexAttribBinding.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\3d\3DProgramInfo.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\win32\StdC-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\win32\FileUtils-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\win32\Common-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\win32\Application-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\win32\Device-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\GLViewImpl.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\SAXParser.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\GLView.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\FileUtils.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\Image.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\FileStream.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\platform\ApplicationBase.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics\PhysicsBody.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics\PhysicsContact.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics\PhysicsJoint.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics\PhysicsShape.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics\PhysicsWorld.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3D.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3DComponent.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3DConstraint.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3DDebugDrawer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3DObject.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3DShape.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\Physics3DWorld.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\physics3d\PhysicsMeshRenderer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\AffineTransform.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Vertex.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Mat4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\MathUtil.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Quaternion.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\TransformUtils.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Vec2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Vec3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Vec4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\math\Rect.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\navmesh\NavMesh.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\navmesh\NavMeshAgent.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\navmesh\NavMeshDebugDraw.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\navmesh\NavMeshObstacle.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\navmesh\NavMeshUtils.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\CallbackCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\CustomCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\GroupCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\Material.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\MeshCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\Pass.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\QuadCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\RenderCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\RenderState.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\Renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\Technique.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\Texture2D.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\TextureAtlas.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\TextureCache.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\TextureCube.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\TrianglesCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\Shaders.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\ProgramManager.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\ProgramStateRegistry.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\CommandBuffer.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\DepthStencilState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\DriverBase.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\ShaderModule.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\Texture.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\PixelFormatUtils.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\Types.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\VertexLayout.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\Program.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\ProgramState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\ShaderCache.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\RenderPassDescriptor.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\OpenGLState.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\BufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\CommandBufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\CommandBufferGLES2.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\DepthStencilStateGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\DriverGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\ProgramGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\RenderPipelineGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\ShaderModuleGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\TextureGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\UtilsGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\RenderTargetGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\AsyncTaskPool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\AutoreleasePool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Configuration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Console.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Controller.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Data.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\NinePatchImageParser.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Director.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Event.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListener.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventListenerTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\EventTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\IMEDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\NS.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Profiling.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Properties.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Ref.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Scheduler.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\ScriptSupport.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Touch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\UserDefault.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Value.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\ObjectFactory.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\StencilStateManager.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\TGAlib.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\ZipUtils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\atitc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\base64.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\FPSImages.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Random.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Types.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\UTF8.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Utils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\SimpleTimer.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\etc1.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\etc2.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\pvr.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\s3tc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\astc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\base\Controller-linux-win32.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioEngine.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioDecoderManager.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioDecoder.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioDecoderOgg.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioPlayer.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioCache.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioEngineImpl.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioDecoderMp3.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\audio\AudioDecoderWav.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIEditBox\UIEditBoxImpl-win32.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIWebView\UIWebViewImpl-win32.cpp">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIWebView\UIWebView.cpp">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIMediaPlayer.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\axmol-ui.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIAbstractCheckButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UICheckBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIRadioButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\LayoutHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIHBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIImageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UILayout.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UILayoutManager.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UILayoutParameter.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIListView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UILoadingBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIPageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIPageViewIndicator.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIRelativeBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIRichText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIScale9Sprite.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIScrollView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIScrollViewBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UISlider.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UITextAtlas.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UITextBMFont.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UITextField.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIVBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIEditBox\UIEditBox.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UILayoutComponent.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UIEditBox\UIEditBoxImpl-common.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UITabControl.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\ui\UITextFieldEx.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\network\Downloader.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\network\Downloader-curl.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\network\Uri.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\network\HttpClient.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\network\HttpCookie.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\network\WebSocket.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\media\AndroidMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\media\MFUtils.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\media\MediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\media\MfMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\media\VlcMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\core\media\WmfMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\axmol\core\axmol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionPageTurn3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionTween.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Grid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\SpriteFrameCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Layer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionCamera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ParticleExamples.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Sprite.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\AnchoredSprite.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Node.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ComponentContainer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TweenFunction.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Light.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\AutoPolygon.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FontAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\AtlasNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ClippingNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\RenderTexture.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionInterval.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TMXXMLParser.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionInstant.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Label.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Component.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\LabelAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionCatmullRom.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ParticleBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ClippingRectangleNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionEase.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Scene.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ProtectedNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TextFieldTTF.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\AnimationCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FastTMXLayer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FontAtlasCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Font.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ParticleSystemQuad.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionGrid3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\CameraBackgroundBrush.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FastTMXTiledMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\MenuItem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FontFNT.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\SpriteBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TransitionProgress.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\SpriteFrame.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TMXObjectGroup.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Animation.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\NodeGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FontFreeType.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Action.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Transition.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TransitionPageTurn.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\FontCharMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ParticleSystem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\TileMapAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionTiledGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionManager.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\MotionStreak.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Menu.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\DrawNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\Camera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ParallaxNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\SpriteSheetLoader.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\PlistSpriteSheetLoader.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\2d\ActionCoroutine.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\BillBoard.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Frustum.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\MeshVertexIndexData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Plane.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Ray.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Mesh.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Animate3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Terrain.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\AnimationCurve.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\MeshRenderer.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\MeshMaterial.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\OBB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Animation3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\MotionStreak3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Skybox.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\MeshSkin.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\cocos3d.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\AABB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Bundle3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\ObjLoader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Bundle3DData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\Skeleton3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\BundleReader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\AttachNode.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\VertexAttribBinding.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\3d\3DProgramInfo.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\win32\Application-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\win32\GL-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\win32\FileUtils-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\win32\StdC-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\GLViewImpl.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\Application.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\ApplicationBase.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\Common.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\Device.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\FileUtils.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\GL.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\GLView.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\Image.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\PlatformConfig.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\PlatformDefine.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\PlatformMacros.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\SAXParser.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\StdC.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\IFileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\platform\FileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\PhysicsContact.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\PhysicsWorld.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\PhysicsBody.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\cpCompat62.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\PhysicsShape.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\PhysicsHelper.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics\PhysicsJoint.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3DConstraint.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3DShape.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3D.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3DWorld.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\PhysicsMeshRenderer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3DObject.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3DComponent.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\physics3d\Physics3DDebugDrawer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Vec2.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Mat4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Quaternion.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\TransformUtils.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Vec4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\AffineTransform.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Vertex.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Vec3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\MathBase.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\MathUtil.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Math.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\Rect.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\math\FastRNG.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\navmesh\NavMeshAgent.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\navmesh\NavMeshObstacle.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\navmesh\NavMeshUtils.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\navmesh\NavMeshDebugDraw.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\navmesh\NavMesh.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\CallbackCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\CustomCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\GroupCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\Material.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\MeshCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\Pass.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\PipelineDescriptor.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\QuadCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\RenderCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\RenderCommandPool.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\Renderer.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\RenderState.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\Shaders.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\Technique.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\Texture2D.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\TextureAtlas.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\TextureCache.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\TextureCube.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\TrianglesCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Backend.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Buffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\CommandBuffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\DepthStencilState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\DriverBase.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Enums.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Macros.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\PixelBufferDescriptor.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\PixelFormatUtils.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Program.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\ProgramManager.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\ProgramState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\ProgramStateRegistry.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\RenderPassDescriptor.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\RenderPipeline.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\RenderTarget.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\ShaderCache.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\ShaderModule.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Texture.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\Types.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\VertexLayout.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\OpenGLState.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\BufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\CommandBufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\CommandBufferGLES2.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\DepthStencilStateGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\DriverGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\MacrosGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\ProgramGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\RenderPipelineGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\RenderTargetGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\ShaderModuleGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\TextureGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\renderer\backend\opengl\UtilsGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\astc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\pvr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\format.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Value.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\atitc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Data.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Macros.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Controller.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Touch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\base64.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\s3tc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\etc1.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\etc2.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\GameController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Console.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Constants.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Event.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Types.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Enums.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\AsyncTaskPool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Random.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Ref.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Profiling.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\ObjectFactory.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Properties.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Vector.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\NinePatchImageParser.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Utils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\RefPtr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Director.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\UserDefault.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Config.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\FPSImages.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\ZipUtils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Map.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\UTF8.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\ScriptSupport.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Configuration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Protocols.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\TGAlib.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\IMEDelegate.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\NS.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\AutoreleasePool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\StencilStateManager.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListenerAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\firePngData.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventListener.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\Scheduler.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\EventType.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\IMEDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\PaddedString.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\base\JsonWriter.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\alconfig.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioEngine.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioMacros.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioDecoderManager.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioDecoder.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioDecoderOgg.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioPlayer.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioCache.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioEngineImpl.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioDecoderMp3.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\audio\AudioDecoderWav.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIEditBox\UIEditBoxImpl-win32.h">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIWebView\UIWebViewImpl-win32.h">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIWebView\UIWebView.h">
+      <Filter>Source Files\ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIMediaPlayer.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\axmol-ui.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\GUIDefine.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\GUIExport.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIAbstractCheckButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UICheckBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\LayoutHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIHBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIImageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UILayout.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UILayoutComponent.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UILayoutManager.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UILayoutParameter.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIListView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UILoadingBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIPageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIPageViewIndicator.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIRadioButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIRelativeBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIRichText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIScale9Sprite.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIScrollView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIScrollViewBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UISlider.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UITabControl.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UITextAtlas.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UITextBMFont.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UITextField.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIVBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\ui\UIWidget.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\Downloader-curl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\IDownloaderImpl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\Downloader.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\Uri.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\HttpClient.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\HttpResponse.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\HttpRequest.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\HttpCookie.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\network\WebSocket.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\AndroidMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\AvfMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\MFUtils.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\MediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\MfMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\VlcMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\core\media\WmfMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\axmol.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\axmol.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\axmol.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\axmol.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\cameraClear.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\cameraClear.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\color.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\colorNormal.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\colorNormalTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\colorTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\dualSampler.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\dualSampler_gray.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\dualSampler_hsv.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\grayScale.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\hsv.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\label_distanceGlow.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\label_distanceNormal.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\label_distanceOutline.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\label_normal.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\label_outline.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\layer_radialGradient.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\lineColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\lineColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\particle.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\particleColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\particleTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\position.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionColorLengthTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionColorLengthTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionColorTextureAsPointsize.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionNormalTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTexture3D.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTextureColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTextureColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTextureColorAlphaTest.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionTextureInstance.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\positionUColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\quadColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\quadColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\quadTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\quadTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\skinPositionNormalTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\skinPositionTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\skybox.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\skybox.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\terrain.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\terrain.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\videoTextureBGRA.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\videoTextureNV12.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\renderer\shaders\videoTextureYUY2.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Z:\VS\Project\axmol\core\axmol.natvis" />
+    <Natvis Include="Z:\VS\Project\axmol\thirdparty\robin-map\tsl-robin-map.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{88C2BC78-B806-3925-AA0F-14F6CE64E21B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FB4DB3D-6F8D-3745-BBEF-1195DE685220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2d">
+      <UniqueIdentifier>{773C2B56-5853-32F3-B173-BCB928079E29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3d">
+      <UniqueIdentifier>{58CBA5BE-DCAB-3B1E-9C58-0556C4BBBE6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{F8F6CB52-04AA-3004-893C-F49D1017DA74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{B084C6E8-263C-3145-9066-451432241B8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{7AE8F609-FC5C-341A-AC3A-45985B82D691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\media">
+      <UniqueIdentifier>{4BCB8925-9B6C-3A33-AA97-90740C04EF52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\navmesh">
+      <UniqueIdentifier>{FF309372-E76D-3025-AFC0-BB276157F7CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{33B051CB-F60E-31AA-B859-488F927C6C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{41BD3059-0AAD-38BE-AE03-3D353CF0E6FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics3d">
+      <UniqueIdentifier>{240F6713-E50B-3E3C-AD26-97FFF07F6A03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{4CF83067-4B08-3A1D-A3C3-B4DA1128FA13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32">
+      <UniqueIdentifier>{9349E07F-962B-39AA-9901-2299A248A095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{29A57ABB-718F-337F-BE61-9F636DE49F3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend">
+      <UniqueIdentifier>{A23F3A33-A0B5-3149-87B8-B488BD1EE08F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend\opengl">
+      <UniqueIdentifier>{1BEDD320-947E-30D2-BD57-BA0EBD1BA8E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\shaders">
+      <UniqueIdentifier>{C4F577F0-2EE3-3E0F-A579-C91E7FC983F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{E30BA1F8-2B62-3882-A875-D2DC2BB520B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIEditBox">
+      <UniqueIdentifier>{5D1BA1B0-45E6-3B0C-9740-1D0EF856C326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIWebView">
+      <UniqueIdentifier>{1E7520F2-09CA-3C8E-95BC-121F9F23E96E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\SeamlessClient\Source\AppDelegate.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\SeamlessClient\Source\ClientWorker.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\SeamlessClient\Source\GameScene.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\SeamlessClient\Source\World.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\SeamlessClient\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Source\AppDelegate.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Source\ClientWorker.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Source\GameScene.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Source\World.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Content\CloseNormal.png">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Content\CloseSelected.png">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Content\HelloWorld.png">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Content\fonts\Marker Felt.ttf">
+      <Filter>Content\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Content\fonts\arial.ttf">
+      <Filter>Content\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\SeamlessClient\Content\res\.gitkeep">
+      <Filter>Content\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\SeamlessClient\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Z:\VS\Project\SeamlessClient\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{B7D3C7A1-AC19-335A-98FF-7B3DDB56AEB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\fonts">
+      <UniqueIdentifier>{BC979068-423A-36E7-9730-91A2B0D386D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\res">
+      <UniqueIdentifier>{7C4B3800-0F12-3F1E-A3F4-CC7C7C9FCE93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FB4DB3D-6F8D-3745-BBEF-1195DE685220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{31AD635E-AF1C-31B0-9982-EFC0494B5295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{83B2C5AA-A3B0-3E5F-BCF0-D5E95A974457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

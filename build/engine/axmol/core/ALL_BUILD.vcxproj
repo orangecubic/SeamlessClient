@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF35EED7-5F7D-3BCC-B070-EA37178D9C3A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Z:/VS/Project/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\axmol\core\2d\CMakeLists.txt;Z:\VS\Project\axmol\core\3d\CMakeLists.txt;Z:\VS\Project\axmol\core\audio\CMakeLists.txt;Z:\VS\Project\axmol\core\axmolver.h.in;Z:\VS\Project\axmol\core\base\CMakeLists.txt;Z:\VS\Project\axmol\core\math\CMakeLists.txt;Z:\VS\Project\axmol\core\navmesh\CMakeLists.txt;Z:\VS\Project\axmol\core\network\CMakeLists.txt;Z:\VS\Project\axmol\core\physics\CMakeLists.txt;Z:\VS\Project\axmol\core\physics3d\CMakeLists.txt;Z:\VS\Project\axmol\core\platform\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\RenderConsts.h.in;Z:\VS\Project\axmol\core\ui\CMakeLists.txt;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Z:/VS/Project/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\axmol\core\2d\CMakeLists.txt;Z:\VS\Project\axmol\core\3d\CMakeLists.txt;Z:\VS\Project\axmol\core\audio\CMakeLists.txt;Z:\VS\Project\axmol\core\axmolver.h.in;Z:\VS\Project\axmol\core\base\CMakeLists.txt;Z:\VS\Project\axmol\core\math\CMakeLists.txt;Z:\VS\Project\axmol\core\navmesh\CMakeLists.txt;Z:\VS\Project\axmol\core\network\CMakeLists.txt;Z:\VS\Project\axmol\core\physics\CMakeLists.txt;Z:\VS\Project\axmol\core\physics3d\CMakeLists.txt;Z:\VS\Project\axmol\core\platform\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\RenderConsts.h.in;Z:\VS\Project\axmol\core\ui\CMakeLists.txt;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Z:/VS/Project/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\axmol\core\2d\CMakeLists.txt;Z:\VS\Project\axmol\core\3d\CMakeLists.txt;Z:\VS\Project\axmol\core\audio\CMakeLists.txt;Z:\VS\Project\axmol\core\axmolver.h.in;Z:\VS\Project\axmol\core\base\CMakeLists.txt;Z:\VS\Project\axmol\core\math\CMakeLists.txt;Z:\VS\Project\axmol\core\navmesh\CMakeLists.txt;Z:\VS\Project\axmol\core\network\CMakeLists.txt;Z:\VS\Project\axmol\core\physics\CMakeLists.txt;Z:\VS\Project\axmol\core\physics3d\CMakeLists.txt;Z:\VS\Project\axmol\core\platform\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\RenderConsts.h.in;Z:\VS\Project\axmol\core\ui\CMakeLists.txt;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Z:/VS/Project/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+Z:\VS\Project\axmol\tools\external\cmake\bin\cmake.exe -SZ:/VS/Project/SeamlessClient -BZ:/VS/Project/SeamlessClient/build --check-stamp-file Z:/VS/Project/SeamlessClient/build/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\axmol\core\2d\CMakeLists.txt;Z:\VS\Project\axmol\core\3d\CMakeLists.txt;Z:\VS\Project\axmol\core\audio\CMakeLists.txt;Z:\VS\Project\axmol\core\axmolver.h.in;Z:\VS\Project\axmol\core\base\CMakeLists.txt;Z:\VS\Project\axmol\core\math\CMakeLists.txt;Z:\VS\Project\axmol\core\navmesh\CMakeLists.txt;Z:\VS\Project\axmol\core\network\CMakeLists.txt;Z:\VS\Project\axmol\core\physics\CMakeLists.txt;Z:\VS\Project\axmol\core\physics3d\CMakeLists.txt;Z:\VS\Project\axmol\core\platform\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\CMakeLists.txt;Z:\VS\Project\axmol\core\renderer\RenderConsts.h.in;Z:\VS\Project\axmol\core\ui\CMakeLists.txt;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Z:\VS\Project\SeamlessClient\build\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\ZERO_CHECK.vcxproj">
+      <Project>{4000994D-F8D1-31BF-8470-05148A22BAF0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{3F5AF7C8-E259-3D0C-B345-86BF56E7E366}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\DragonBones\DragonBones.vcxproj">
+      <Project>{6816D660-7936-3AAD-BF5D-1526745E0AB0}</Project>
+      <Name>DragonBones</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\GUI\GUI.vcxproj">
+      <Project>{6502467B-6423-3C9A-B36B-7AD493E9E0DF}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\ImGui\ImGui.vcxproj">
+      <Project>{AB8DD4B4-C56D-3868-BCED-2CD489B3A18F}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\Inspector\Inspector.vcxproj">
+      <Project>{80883B6E-62A1-3B82-868B-DC27B419C1E1}</Project>
+      <Name>Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\JSONDefault\JSONDefault.vcxproj">
+      <Project>{887AC4B3-361F-3777-856C-EC4805D97744}</Project>
+      <Name>JSONDefault</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\SDFGen\SDFGen.vcxproj">
+      <Project>{9DCFF7AE-271B-3C34-9AE2-E28DAD198FBD}</Project>
+      <Name>SDFGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\assets-manager\assets-manager.vcxproj">
+      <Project>{80BD50AB-ED75-3F95-8540-5F8B4A5B87C3}</Project>
+      <Name>assets-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\astcenc\astcenc.vcxproj">
+      <Project>{651C99B8-0848-384A-AF70-4CE3F069315A}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\scripting\lua-bindings\axlua.vcxproj">
+      <Project>{CA620CDA-3EDD-3943-B994-E593A5CD7C0D}</Project>
+      <Name>axlua</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\axmol\core\axmol.vcxproj">
+      <Project>{88BC3866-F84F-3C89-8B98-09EBEECA85D7}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\box2d\box2d.vcxproj">
+      <Project>{1166D176-EDAF-3639-A93C-E169B2029CA0}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\bullet\bullet.vcxproj">
+      <Project>{2F736EF5-57A1-3A37-9791-468E7C7D9DF3}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{D6FE8FB0-43BB-3511-A418-1E9A3A059EFF}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\clipper2\clipper2.vcxproj">
+      <Project>{408DC6CA-905C-3A22-B9C6-782CAD224FE0}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\cocostudio\cocostudio.vcxproj">
+      <Project>{4F8CEF42-38AE-3CE0-BA42-A9C0565709BE}</Project>
+      <Name>cocostudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\fairygui\fairygui.vcxproj">
+      <Project>{43729C41-9DC5-3E3D-BEE7-5EEC4293E89D}</Project>
+      <Name>fairygui</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\fastlz\fastlz.vcxproj">
+      <Project>{B4CC9C27-6943-3DE1-928B-9C476A3B36B7}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\fmt\fmt.vcxproj">
+      <Project>{5A241E4A-B68E-3DFA-8EDE-0353B6419331}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\freetype\freetype.vcxproj">
+      <Project>{B2BA4EBE-0BD0-3BB7-AF38-EAE6AB14679F}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\glad\glad.vcxproj">
+      <Project>{7F97C7C9-4461-32B8-9F64-445079B8D534}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{94A94928-C51E-3203-A400-B058BCD214C9}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\llhttp\llhttp.vcxproj">
+      <Project>{8FEE5936-F890-333F-B1D0-E5A8E126F33C}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\lua\plainlua\lua.vcxproj">
+      <Project>{A2443333-6C4D-3DAA-A0B7-37265170B1B2}</Project>
+      <Name>lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\lua\lua-cjson\lua-cjson.vcxproj">
+      <Project>{9ADCEFE9-6EC4-315A-8874-58BE0614BD63}</Project>
+      <Name>lua-cjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\lua\plainlua\luac.vcxproj">
+      <Project>{AEEAE32C-0B58-3D85-B4A4-33E33515358F}</Project>
+      <Name>luac</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\ogg\ogg.vcxproj">
+      <Project>{09A752F0-6060-316B-BF77-8EDF793A532D}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\Particle3D\particle3d.vcxproj">
+      <Project>{696377C6-EE7A-374A-82A2-466FA3EA59B3}</Project>
+      <Name>particle3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\physics-nodes\physics-nodes.vcxproj">
+      <Project>{81A0AAE0-EB76-3655-984F-38A190096C72}</Project>
+      <Name>physics-nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\lua\plainlua\plainlua.vcxproj">
+      <Project>{C1263CF2-1267-3796-99ED-98FD0AA92CB3}</Project>
+      <Name>plainlua</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\png\png.vcxproj">
+      <Project>{65D83970-2F38-3CAD-88D6-B3970E659CAE}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{9E6512AF-7C1E-3FC3-A6CB-37791AEB1A3C}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\pugixml\pugixml.vcxproj">
+      <Project>{EC3F822E-4C03-384C-8A06-3E3AEC9F190B}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\recast\recast.vcxproj">
+      <Project>{789E3A14-5511-3965-B34A-BBD0DA056507}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\simdjson\simdjson.vcxproj">
+      <Project>{5A647BC9-B1AF-33B1-A641-2D1947C96390}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\extensions\spine\spine.vcxproj">
+      <Project>{0A9573FD-B387-388D-A7BA-4C840AEC1F0F}</Project>
+      <Name>spine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\lua\tolua\tolua.vcxproj">
+      <Project>{BE2E3978-AB71-33DB-A4B7-5E3831769027}</Project>
+      <Name>tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\unzip\unzip.vcxproj">
+      <Project>{4F32AC18-94BF-3360-B7D1-7ABFE736D1B9}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\webp\webp.vcxproj">
+      <Project>{4AC1B9C0-454B-3D55-B901-7D3C60ADD5CE}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{4D7B9400-CC79-383D-B8A7-B6D5F0AAE1E6}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\xxhash\xxhash.vcxproj">
+      <Project>{CD364F5B-B5FF-3996-9194-7BE90283951F}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="Z:\VS\Project\SeamlessClient\build\engine\thirdparty\yasio\yasio.vcxproj">
+      <Project>{39478F96-D01B-3556-8900-76A81608B493}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

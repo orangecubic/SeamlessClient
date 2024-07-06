@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\ImGuiPresenter.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui.cpp">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui_demo.cpp">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui_draw.cpp">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui_tables.cpp">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Source Files\src\ImGui\imgui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui_impl_ax.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\ImGuiPresenter.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imconfig.h">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui.h">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imgui_internal.h">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imstb_rectpack.h">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imstb_textedit.h">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\imstb_truetype.h">
+      <Filter>Source Files\src\ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>Source Files\src\ImGui\imgui\misc\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\extensions\ImGui\src\ImGui\imgui_impl_ax.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\extensions\ImGui\shaders\imgui_font.frag">
+      <Filter>Source Files\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\extensions\ImGui\shaders\imgui_sprite.vert">
+      <Filter>Source Files\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Z:\VS\Project\axmol\extensions\ImGui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FB4DB3D-6F8D-3745-BBEF-1195DE685220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{7D273312-38BB-3EB6-9295-A1CAD64DB8F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{41665708-84A4-3B95-8C8B-724352590273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui">
+      <UniqueIdentifier>{A9FE9607-ACD6-3957-8068-FE3E0E627F29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\imgui">
+      <UniqueIdentifier>{BCB0FB0B-DB60-309A-88C3-F440A1616016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\imgui\misc">
+      <UniqueIdentifier>{B23A5BE5-7730-32DB-B5AF-04FDF39B2318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\imgui\misc\cpp">
+      <UniqueIdentifier>{7B3EA842-3DF4-3D3C-94C2-5CE3330C47FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

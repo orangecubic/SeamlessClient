@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+Z:/VS/Project/axmol/thirdparty/glfw/CMake/glfw3Config.cmake.in
+Z:/VS/Project/axmol/thirdparty/glfw/CMakeLists.txt
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/FindThreads.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+Z:/VS/Project/axmol/tools/external/cmake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in

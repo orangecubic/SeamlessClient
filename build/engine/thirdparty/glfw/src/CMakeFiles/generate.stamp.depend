@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+Z:/VS/Project/axmol/thirdparty/glfw/CMake/glfw3.pc.in
+Z:/VS/Project/axmol/thirdparty/glfw/src/CMakeLists.txt
+Z:\VS\Project\axmol\tools\external\cmake\share\cmake-3.28\Templates\MSBuild\nasm.props.in

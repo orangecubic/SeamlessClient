@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\io_service.cpp" />
+    <ClCompile Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\xxsocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\lua\lua.hpp">
+      <Filter>bindings\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\luajit\lua.hpp">
+      <Filter>bindings\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\lyasio.hpp">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\yasio_axlua.hpp">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\bindings\yasio_sol.hpp">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\buffer_alloc.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\byte_buffer.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\compiler\feature_test.hpp">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\config.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\endian_portable.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\errc.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\fsutils.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\ibstream.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\ares.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\char_traits.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\concurrent_queue.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\epoll_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\eventfd_select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\evport_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\fp16.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\ifaddrs.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\inet_ntop.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\kqueue_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\mbedtls.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\object_pool.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\openssl.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\pipe_select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\poll_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\select_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\socket.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\impl\socket_select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\io_service.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\io_watcher.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\logging.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\memory.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\object_pool.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\object_pool_alloc.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\obstream.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\platform\yasio_jni.hpp">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\platform\yasio_unreal.hpp">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\pod_vector.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\ref_ptr.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\shared_mutex.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\singleton.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\split.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\ssl.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\strfmt.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\string.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\string_view.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\sz.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\thread_name.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\type_traits.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\utils.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\wtimer_hres.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\xxsocket.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\yasio.hpp" />
+    <ClInclude Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\yasio_fwd.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Z:\VS\Project\axmol\thirdparty\yasio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Z:\VS\Project\axmol\thirdparty\yasio\yasio\yasio.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bindings">
+      <UniqueIdentifier>{E15E790E-4CFB-3965-8F3A-49711211151B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bindings\lua">
+      <UniqueIdentifier>{0E8CFD4A-B1AC-3D4C-8541-FF888C91722C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bindings\luajit">
+      <UniqueIdentifier>{CE8AD5CF-147E-3581-91FB-585166B78ED4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler">
+      <UniqueIdentifier>{12579982-C161-338E-800E-5DA6F3BC40B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{92E85B37-1A74-38F6-BE02-92EFB0B1AEB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{186D3FCB-D460-37DF-A38F-14467AACC4DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
